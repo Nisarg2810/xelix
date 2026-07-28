@@ -88,9 +88,26 @@
   .quote-text { font-size: 17px; font-weight: 700; line-height: 1.45; font-style: italic; }
 
   .footnote { text-align: center; margin-top: 40px; font-size: 8px; color: #C3C6D4; letter-spacing: 0.01em; opacity: 0.7; }
+
+  #loadScreen {
+    position: fixed; inset: 0; z-index: 9999;
+    background: linear-gradient(135deg, var(--xelix-navy-dark) 0%, var(--xelix-navy) 55%, var(--xelix-purple) 100%);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 22px;
+    transition: opacity 0.4s ease;
+  }
+  #loadScreen img { height: 34px; width: auto; }
+  #loadScreen .loadbar { width: 180px; height: 4px; border-radius: 999px; background: rgba(255,255,255,0.18); overflow: hidden; }
+  #loadScreen .loadbar-fill { height: 100%; width: 0%; background: var(--xelix-pink); border-radius: 999px; animation: loadfill 1.8s ease-in-out forwards; }
+  @keyframes loadfill { from { width: 0%; } to { width: 100%; } }
+  #loadScreen.hide { opacity: 0; pointer-events: none; }
 </style>
 </head>
 <body>
+
+<div id="loadScreen">
+  <img src="https://xelix.com/hubfs/logo%20white-4.svg" alt="Xelix">
+  <div class="loadbar"><div class="loadbar-fill"></div></div>
+</div>
 
 <div class="wrap">
   <div class="hero">
@@ -295,6 +312,14 @@ async function loadPosts() {
 }
 
 loadPosts();
+
+setTimeout(() => {
+  const ls = document.getElementById('loadScreen');
+  if (ls) {
+    ls.classList.add('hide');
+    setTimeout(() => ls.remove(), 400);
+  }
+}, 2000);
 </script>
 
 </body>
