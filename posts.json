@@ -21,7 +21,7 @@
     "photo": "https://media.licdn.com/dms/image/v2/D4E03AQF-VIGWxsBaoQ/profile-displayphoto-crop_800_800/B4EZrf1JBwJ0AM-/0/1764691842071?e=1786579200&v=beta&t=9CB2vzzQCqGmWfOBoP2Wb-fEJRcV-trFU1J6EgERZAk",
     "body": "I get asked constantly, usually by someone slightly nervous about the answer, whether AI is going to replace Accounts Payable teams. My honest answer disappoints people looking for a dramatic prediction either way: it's already changing the job, but not in the direction most of these conversations assume.\n\nThe manual, repetitive parts of AP, matching invoices to POs, chasing a vendor for a missing statement, flagging a duplicate that a human reviewer would catch eventually anyway, are genuinely well suited to automation, and we've built a business on exactly that premise. What's harder to automate, and what I don't think gets enough credit in the doom-and-boom takes about AI replacing finance, is judgment: deciding whether an unusual payment pattern is actually fraud or just an unusual but legitimate business reason, deciding how hard to push a vendor relationship over a disputed statement, deciding which control gap is actually worth fixing this quarter versus next year.\n\nWhat I've watched happen at our best customers isn't headcount disappearing. It's the same people spending their time on exactly that judgment work instead of the repetitive matching that used to consume most of their week. The AP manager who used to spend three days a month manually reconciling statements now spends that time actually investigating the patterns the reconciliation surfaces, which is a meaningfully different, more valuable job than the one they had before, not a smaller version of it.\n\nI'd rather be honest that this transition is genuinely uneven across companies right now than pretend every finance team is already there. Some are still fighting to get basic automation approved internally. But the direction is clear enough, after seven years watching this up close, that I'm comfortable saying the fear of AI replacing the AP function is aimed at the wrong target. The function isn't disappearing. The repetitive half of it is, and what's left is considerably more interesting work for the people doing it.",
     "type": "standard",
-    "featured": false
+    "featured": true
   },
   {
     "name": "Alisa McPhail",
@@ -39,14 +39,7 @@
     "type": "standard",
     "featured": true
   },
-  {
-    "name": "Alisa McPhail",
-    "role": "Head of Marketing",
-    "photo": "https://media.licdn.com/dms/image/v2/D4E35AQGvhLNdA2-j3A/profile-framedphoto-shrink_800_800/B4EZ.GPCI1HkAY-/0/1784663516277?e=1785834000&v=beta&t=mUu5Y2Ws5KedyNmgumQfFkL8loGybSZg9UwaG2DvOA0",
-    "body": "Most B2B SaaS marketing, mine included at various points over the past decade, has a specific problem that doesn't get named often enough: it's written to sound credible to a category of buyer that finds credibility boring. Finance leaders, the audience I write for now, are professionally trained to be skeptical of confident, polished claims, which is exactly the register most B2B content defaults to.\n\nA piece of content that opens with a broad claim about transforming Accounts Payable reads, to the finance leader actually evaluating it, as marketing copy to be discounted before the actual substance underneath gets a fair read. A piece that opens with a specific number, a specific failure mode, a specific customer's actual result, reads as something worth their remaining attention. The difference isn't tone. It's specificity, and specificity is genuinely harder and slower to produce than a confident general claim.\n\nMy own background is in media and creative writing before I ever touched B2B marketing, which is exactly why this bothers me more than it seems to bother some people who've spent their whole career in this specific category. A B2C audience punishes boring content quickly and visibly, low engagement, no shares, an obvious signal something didn't land. A B2B audience often just quietly disengages without any visible signal at all, which lets genuinely mediocre content survive far longer than it should, because nobody's forced to confront that it isn't working.\n\nWhat I push our team toward now, across every channel, is the discipline of naming a specific number or a specific failure before making any broader claim. It's a small structural rule. It's also the single change that's improved our own content's performance more consistently than any format or channel experiment we've run.",
-    "type": "standard",
-    "featured": true
-  },
+  
   {
     "name": "Robert Bergs",
     "role": "VP of Engineering",
